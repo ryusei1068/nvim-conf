@@ -3,6 +3,7 @@ return {
   opts = {
     servers = {
       -- Ensure mason installs the server
+      -- rust
       rust_analyzer = {
         keys = {
           { "K", "<cmd>RustHoverActions<cr>", desc = "Hover Actions (Rust)" },
